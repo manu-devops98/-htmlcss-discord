@@ -102,9 +102,11 @@ a.btn:hover {
 
 .jumbo-title {
     margin-bottom: 1.1em;
+    font-size: 3em;
 }
 
 .jumbo-desc {
+    font-size: 1.2em;
     line-height: 1.7em;
     margin-bottom: 1.1em;
 }
@@ -126,4 +128,40 @@ a.btn.dark:focus {
 }
 
 
+/* section  */
 
+.container {
+    width: 100%;
+    margin: 10px auto;
+    /* text-align: center; */
+}
+
+#item-1 {
+    width: 580px;
+    float: right;
+    padding: 3.4em;
+    
+}
+.container .col-big {
+    width: calc(60% - 40px);
+}
+
+.container .col-small {
+    width: 40%;
+}
+
+.col-small .main-text {
+    width: 50%;
+    margin-top: 4.2em;
+}
+
+.col-small .main-title {
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.col-small .main-par {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
